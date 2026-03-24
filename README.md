@@ -67,32 +67,6 @@ docker build -t abelohost .
 docker run -p 3000:3000 abelohost
 ```
 
-## Project Structure
-
-```
-├── app/                    # Next.js App Router pages
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page
-│   └── login/             # Login page
-├── components/            # React components
-│   ├── Header/           # Header component
-│   ├── Footer/           # Footer component
-│   ├── LoginForm/        # Login form
-│   ├── ProductsList/     # Products list
-│   ├── ProductCard/      # Product card
-│   └── LoadingSpinner/   # Loading indicator
-├── lib/                  # Utility functions
-│   ├── api.ts           # Axios client
-│   ├── auth.ts          # Authentication service
-│   └── products.ts      # Products service
-├── store/               # Zustand stores
-│   └── authStore.ts    # Authentication store
-├── types/               # TypeScript types
-│   └── index.ts        # Type definitions
-└── styles/              # Global styles
-    └── globals.scss    # Global SCSS
-```
-
 ## API
 
 This application uses the [DummyJSON API](https://dummyjson.com/):

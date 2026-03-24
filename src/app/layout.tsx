@@ -8,7 +8,7 @@ import "@/src/styles/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AbeloHost - Products",
+  title: "AbeloHost title",
   description: "Product catalog with authentication",
 };
 

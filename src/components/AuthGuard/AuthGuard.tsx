@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
-import { useAuthStore } from "@/store/authStore";
+import { useAuthStore } from "@/src/store/authStore";
 
-export default function AuthProvider({
+export default function AuthGuard({
   children,
 }: {
   children: React.ReactNode;

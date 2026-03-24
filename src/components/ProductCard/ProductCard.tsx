@@ -1,4 +1,4 @@
-import type { Product } from "@/types";
+import type { Product } from "@/src/types";
 import styles from "./ProductCard.module.scss";
 
 interface ProductCardProps {

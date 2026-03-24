@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useAuthStore } from "@/store/authStore";
+import { useAuthStore } from "@/src/store/authStore";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {

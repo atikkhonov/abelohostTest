@@ -1,5 +1,5 @@
 import apiClient from "./api";
-import type { LoginResponse, User } from "@/types";
+import type { LoginResponse, User } from "@/src/types";
 
 export const authService = {
   async login(username: string, password: string): Promise<User> {
@@ -20,7 +20,6 @@ export const authService = {
         token: response.data.token,
       };
 
-      // Store in localStorage
       if (typeof window !== "undefined") {
         localStorage.setItem("token", user.token);
         localStorage.setItem("user", JSON.stringify(user));

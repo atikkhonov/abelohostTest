@@ -1,7 +1,17 @@
 {
-  "extends": ["stylelint-config-standard-scss"],
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss"
+  ],
+  "plugins": [],
   "rules": {
-    "selector-class-pattern": null,
-    "scss/at-import-partial-extension": null
-  }
+    "selector-max-id": 0,
+    "no-descending-specificity": null,
+    "selector-class-pattern": null
+  },
+  "ignoreFiles": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/dist/**"
+  ]
 }

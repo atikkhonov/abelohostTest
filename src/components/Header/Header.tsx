@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { useAuthStore } from "@/store/authStore";
+import { useAuthStore } from "@/src/store/authStore";
 import styles from "./Header.module.scss";
 
 export default function Header() {

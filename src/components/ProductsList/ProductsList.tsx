@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useAuthStore } from "@/store/authStore";
-import { productsService } from "@/lib/products";
-import type { Product } from "@/types";
+import { useAuthStore } from "@/src/store/authStore";
+import { productsService } from "@/src/lib/products";
+import type { Product } from "@/src/types";
 import ProductCard from "../ProductCard/ProductCard";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 import styles from "./ProductsList.module.scss";

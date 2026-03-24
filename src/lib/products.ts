@@ -1,5 +1,5 @@
 import apiClient from "./api";
-import type { ProductsResponse } from "@/types";
+import type { ProductsResponse } from "@/src/types";
 
 export const productsService = {
   async getProducts(limit: number = 12): Promise<ProductsResponse> {
